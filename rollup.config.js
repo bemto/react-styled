@@ -74,7 +74,7 @@ const defaultBuildConfig = [
 const testBuildConfig = [
   {
     input,
-    external,
+    external: esExternal,
     output: cjsOutput,
     plugins: esPlugins,
   },
