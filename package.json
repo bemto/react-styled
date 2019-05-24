@@ -1,6 +1,6 @@
 {
   "name": "@bemto/react-styled",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.2",
   "description": "Bemto components for react & styled-components",
   "author": "Roman Komarov <kizu@kizu.ru>",
   "license": "MIT",
@@ -23,11 +23,15 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/bemto/react-styled.git"
   },
+  "bugs": {
+    "url": "https://github.com/bemto/react-styled/issues"
+  },
+  "homepage": "https://github.com/bemto/react-styled#readme",
   "dependencies": {
-    "@bemto/components": "^0.1.0-alpha.2",
-    "@bemto/core": "^0.1.0-alpha.2"
+    "@bemto/components": "^0.1.0-alpha.3",
+    "@bemto/core": "^0.1.0-alpha.3"
   },
   "peerDependencies": {
     "react": "^16.8.0",
