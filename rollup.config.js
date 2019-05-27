@@ -11,7 +11,8 @@ import { sizeSnapshot } from "rollup-plugin-size-snapshot";
 const input = 'src/main.js';
 
 const external = ['react', 'styled-components'];
-const esExternal = ['react', 'styled-components', '@bemto/components'];
+const esExternal =
+  ['react', 'styled-components', '@bemto/react', '@bemto/components'];
 const umdOutput = {
   name: 'index',
   file: pkg.browser,

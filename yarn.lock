@@ -681,31 +681,46 @@
   resolved "https://registry.yarnpkg.com/@bemto/components/-/components-0.1.0-alpha.3.tgz#ab91628fa46a8f2ab75668efbe91534ee3968c47"
   integrity sha512-UpC0V/++Pf3VKKi7SeVeV61BTTah5gMKigfDQMfRhZZSEWAhn6l9Q37rqQg/B+mfmCyzn+acbhfe6Ww8MZ7+7Q==
 
-"@bemto/core@^0.1.0-alpha.3":
-  version "0.1.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@bemto/core/-/core-0.1.0-alpha.3.tgz#9c14011e4dbdb3bd6708a866e5155ef6c45740c0"
-  integrity sha512-nBO7dbQxHpTOEIK866MhTYPbpo5EDqY/rulWWhcFCkp6K77tj7WZHdgO6DiR4sT525DnlypKnHYAlshY4sOSIQ==
+"@bemto/core@^0.1.0-alpha.4":
+  version "0.1.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/@bemto/core/-/core-0.1.0-alpha.4.tgz#5143411139ce730979db13a204ec85337571f2af"
+  integrity sha512-ZS9neTN2tiMqkwFhesdKRFenSOmNkNDOhRmuVB8Gzn/0W6utlbg8gEFP5cbHTPiaXTnjiYNm4LbMHPlemYcWwg==
 
-"@bemto/dev-core-setup@^0.1.0":
+"@bemto/dev-react-setup@^0.1.0":
   version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@bemto/dev-core-setup/-/dev-core-setup-0.1.0.tgz#1930c1b7a10f8bdd37ced57e202d4886a828a94b"
-  integrity sha512-UlyR5ZG0Zo77IMcvow/CkQ3O5rNlfiL0s7nwROyU5CndukI08UZsVEWrJpV9G77BL/8KbMQILd7h87eXAmRTTw==
+  resolved "https://registry.yarnpkg.com/@bemto/dev-react-setup/-/dev-react-setup-0.1.0.tgz#46ce09b5f0c2ac5c4bd1c6604a8078864521a861"
+  integrity sha512-ELVeikBAOu2E0lED2avhHofjR5oqKaYypf8mNN6WeFVbD9FimMFsTnJBFSyFjuD5O2Y+jBwAE15s4aRcXUqW0Q==
   dependencies:
     "@babel/core" "^7.4.4"
     "@babel/preset-env" "^7.4.4"
+    "@babel/preset-react" "^7.0.0"
     babel-core "^7.0.0-bridge.0"
     babel-eslint "^10.0.1"
     babel-jest "^24.8.0"
     babel-plugin-transform-object-assign "^6.22.0"
     eslint "^5.16.0"
+    eslint-plugin-react "^7.12.4"
+    eslint-plugin-react-hooks "^1.6.0"
     jest "^24.8.0"
+    jest-styled-components "^6.3.1"
     prettier "^1.17.1"
+    react "^16.8.6"
+    react-dom "^16.8.6"
+    react-test-renderer "16.8.6"
     rollup "^1.12.3"
     rollup-plugin-babel "^4.3.2"
     rollup-plugin-commonjs "^9.2.1"
     rollup-plugin-node-resolve "^4.0.1"
     rollup-plugin-size-snapshot "^0.8.0"
     rollup-plugin-uglify "^6.0.2"
+    styled-components "^4.2.0"
+
+"@bemto/react@^0.1.0-alpha.1":
+  version "0.1.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@bemto/react/-/react-0.1.0-alpha.1.tgz#89f87a1037d6d8393d0ce6f699f245911d23129f"
+  integrity sha512-1FWih8cK3WsDrpA6pf0d6xhLZ3WN1mvxnejyDmK0k8OmYVEiI5sh3XbNYZDL3g7du2WeDBonPQqGGEdYVco5/Q==
+  dependencies:
+    "@bemto/core" "^0.1.0-alpha.4"
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"

@@ -1,6 +1,6 @@
 {
   "name": "@bemto/react-styled",
-  "version": "0.1.0-alpha.2",
+  "version": "0.1.0-alpha.3",
   "description": "Bemto components for react & styled-components",
   "author": "Roman Komarov <kizu@kizu.ru>",
   "license": "MIT",
@@ -31,22 +31,14 @@
   "homepage": "https://github.com/bemto/react-styled#readme",
   "dependencies": {
     "@bemto/components": "^0.1.0-alpha.3",
-    "@bemto/core": "^0.1.0-alpha.3"
+    "@bemto/react": "^0.1.0-alpha.1"
   },
   "peerDependencies": {
     "react": "^16.8.0",
     "styled-components": ">= 2 < 5"
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.0.0",
-    "@bemto/dev-core-setup": "^0.1.0",
-    "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^1.6.0",
-    "jest-styled-components": "^6.3.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-test-renderer": "16.8.6",
-    "styled-components": "^4.2.0"
+    "@bemto/dev-react-setup": "^0.1.0"
   },
   "jest": {
     "verbose": true,
